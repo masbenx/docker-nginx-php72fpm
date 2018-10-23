@@ -18,6 +18,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y --fix-missing install php7.0 \
       php7.0-xsl \
       php7.0-zip \
       php7.0-soap \
+      php7.0-mysql \
+      php7.0-pdo-mysql \
       php-pear \
       curl \
       php7.0-curl \
